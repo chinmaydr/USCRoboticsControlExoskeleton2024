@@ -1,3 +1,7 @@
-# USCRoboticsControlExoskeleton2024
-
-## Testing 123
+# Motivation
+# Background
+# Approach
+# Models
+# Control
+# Results
+# Future Work
