@@ -79,6 +79,22 @@
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/e12c7186-e8cf-4f69-a100-bf045f226bfc)
 
 ## Models
-## Control
-## Results
+## Results/Discussion
 ## Future Work
+- **Matlab simulation**
+  - **More realistic human model**
+  - **Advanced exoskeleton**
+- **Full lower half exoskeleton**
+  - **Hip, knee, and ankle**
+  - **More rotational movement**
+- **Prototype/Real Device**
+  - **Comfortable**
+  - **Safe**
+  - **Affordable**
+  - **Energy Efficient**
+  - **Lightweight**
+  - **Strong**
+- **Spread to researchers and companies**
+
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/b1ef7e85-d0e3-492f-b23f-f7ab85d707c0)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/564d7c0f-bb6f-40db-afdf-1e44fc07c422)
