@@ -81,14 +81,14 @@
 ## Models
 ## Results/Discussion
 ## Conclusion
-- **Our group learned a lot of core robotics concepts including  modeling with Matlab / Simulink / Simscape and understanding PD (and PID) control**
-- **We learned a lot of the advantages and problems of current exoskeleton ideas, as well as the advantages and problems with robots with springs and compliant materials**
-- **We learned the basics of research and paper review, and were able to design a mechanism and produce results.**
-- **This research can hopefully be used someday by those designing practical and safe exoskeletons for those without fully functioning knees**
-- **Roles:**
-  - **Chinmay: researched soft exoskeleton and SEA, designed and simulated stages of the model, worked on control of motor movements in simulation**
-  - **Ethan: researched on multiple models and different approaches to soft exoskeletons, worked on PD controls**
-  - **Ian: researched compliant mechanisms and modeled early iterations of leg knee possible junctions along with helping overall design functionality**
+- **Learned core robotics concepts**
+  - **Modeling with Matlab / Simulink / Simscape**
+  - **Understanding PD (and PID) control**
+- **Advantages and problems of current exoskeleton ideas**
+  - **Advantages and problems with robots with springs and compliant materials**
+- **Learned basics of research and paper review**
+- **Designed a mechanism and produced results**
+- **Project can be used by research and companies designing safe wearable exoskeletons for the disabled**
 
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/78b229b4-ef63-46cf-b7c7-e7a3c7f2af21)
 
