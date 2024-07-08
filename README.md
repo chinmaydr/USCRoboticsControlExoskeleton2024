@@ -1,7 +1,6 @@
 # Using Elastic Actuators for Knee Exoskeletons
 ## Motivation
 - To provide aid to those without fully functioning knees to perform basic tasks
-
   - Elderly or disabled with non-funtioning or partially functioning knees
     - As a possible extension, it could also be used for soldiers or hikers who get tired walking long distances or carrying heavy loads
   - To aid in tasks like walking, kneeling, sitting, standing, or squatting
