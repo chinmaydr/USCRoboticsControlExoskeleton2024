@@ -44,6 +44,40 @@
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/8ffe1dfa-c2bf-4315-b0eb-85c23f3e5e32)
 
 ## Approach
+- **Technical Details:**
+  - **Focused on knee**
+  - **Used a single axis rotational movement**
+    - **Forward up and down**
+    - **Human walking is very dynamic, but we've simplified the knee to its major axis of rotation**
+  - **Human leg simulation**
+    - **Used Matlab**
+    - **2 link robot acting as human legs**
+  - **Simple exoskeleton**
+    - **An Assistive device with series elastic actuator (SEA with spring and motor)**
+
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/abb2d030-0106-4e43-b6a1-8889d0a8a792)
+
+- **Technical Contributions:**
+  - **Added mass to human model**
+    - **Simulated human load/weight**
+  - **No torque on knee joint**
+    - **Motor 2 is knee joint**
+    - **No torque represents weaken or nonfunctional knee**
+  - **PD/PID controls**
+    - **Used SEA/exoskeleton**
+    - **More control**
+  - **Exoskeleton worked**
+    - **Supported load**
+    - **Moved weakened knee**
+  -  **Simulation and exoskeleton results**
+    - **Contribute to science and wearable robotics**
+    - **Expand to other joints (hip, ankle, etc.)**
+    - **Allow researchers and companies to use results for their works**
+ 
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/234856ff-8858-4d00-8a78-4a3022bcb873)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/56d7b7a6-5052-4066-bf2a-8013c8454c30)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/e12c7186-e8cf-4f69-a100-bf045f226bfc)
+
 ## Models
 ## Control
 ## Results
