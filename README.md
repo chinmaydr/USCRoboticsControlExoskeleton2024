@@ -36,9 +36,9 @@
  ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/887f0166-4129-4fd5-a3d6-4a8ef2c00cf0)
 
  - **Other Research**
-   - **One of the best knee exoskeleton models is from the Neurobionics lab at the University of Michigan**
+   - **One of the best knee exoskeleton models is from the [Neurobionics lab at the University of Michigan](https://neurobionics.robotics.umich.edu/research/wearable-robotics/knee-exoskeleton/)**
      - **Most other approaches to this use different actuator designs, making our method somewhat unique for the knee actuator**
-     - **Cambridge University had another model which was similar but had the SEA in front of the knee, which requires more force than our approach as there is a smaller distance between the force and pivot.**
+     - **Cambridge University had [another model](https://www.cambridge.org/core/journals/wearable-technologies/article/serieselastic-actuator-with-two-degreeoffreedom-pid-control-improves-torque-control-in-a-powered-knee-exoskeleton/FBEBF3966808F9AC51138792D3B6BF10) which was similar but had the SEA in front of the knee, which requires more force than our approach as there is a smaller distance between the force and pivot.**
 
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/903ffb2c-4737-46c9-9417-23c9c3532ff3)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/8ffe1dfa-c2bf-4315-b0eb-85c23f3e5e32)
