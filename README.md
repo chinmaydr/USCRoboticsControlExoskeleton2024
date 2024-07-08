@@ -19,10 +19,21 @@
   - **Using Flexible SEA instead of common motor to move lower limb exoskeleton**
   - **Communication software connects to nervous system signals tells FlexSEA how/when move**
   - **Similar to how human body bends and moves could be used to revolutionize exterior movement supports for humans**
-  - ** Used this Article as a baseline for how we could model our own simulation in Simulink**
+  - **Used this Article as a baseline for how we could model our own simulation in Simulink**
 
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/38e27264-8f81-4a6a-9ae5-c9a89449d337)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/fcc82fe2-6f39-4431-9a18-2a8f4ae26189)
+
+- **Design of physical user–robot interactions for model identification of soft actuators on exoskeleton robots**
+  - **Journal: The International Journal of Robotics Research**
+  - **Objective: To accurately identify soft actuator models for wearable robots Successfully use physical robot interactions where a user applies external forces to the robot**
+  - **Soft pliable actuators move exoskeleton > rigid stiff motors**
+  - **More effective at mapping general human lower limb movements**
+  - **GP active learning algorithm trained to determine robot trajectory**
+  - **Generates Joint torques equal to humans and aids in walking**
+  - **Used this Article’s baseline human walking tests to outline our own model**
+
+ ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/887f0166-4129-4fd5-a3d6-4a8ef2c00cf0)
 
 ## Approach
 ## Models
