@@ -78,7 +78,7 @@
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/56d7b7a6-5052-4066-bf2a-8013c8454c30)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/e12c7186-e8cf-4f69-a100-bf045f226bfc)
 
-## Models
+## Models and Results
 - **Stage 1: Initial Leg model with moving knee joint**
   - **Modified from model provided by mentors**
   - **No major issues, just learning how to use simulink**
@@ -87,8 +87,17 @@
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/b33c321c-53a5-4d1a-9d52-94aeb68ad150)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/ddd142ec-3028-4488-be7d-5a351c34a5bd)
 <video src="videos/baselegmoving.mp4" width="320" height="240" controls></video>
+- **Stage 2: Initial Leg model with moving knee joint attached to ground. Torque added to joints to make it stand**
+  - **Initially made it fall due to gravity, then added torque**
+  - **Issues faced(and resolved)**
+    - **Anchoring - Used transformations to make it bend the right way**
+    - **Leg was too heavy - Made it lighter**
+    - **Learned about spatial contact force to make it act like a real leg wihtout solids phasing through each other**
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/d71e78a8-0d37-4c04-96a3-bcf8ac055521)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/9f2cce30-5e40-4e86-81a5-4309d77a4389)
+<video src="videos/legsitting.mp4" width="320" height="240" controls></video>
+<video src="videos/legstanding.mp4" width="320" height="240" controls></video>
 
-## Results/Discussion
 ## Conclusion
 - **Learned core robotics concepts**
   - **Modeling with Matlab / Simulink / Simscape**
