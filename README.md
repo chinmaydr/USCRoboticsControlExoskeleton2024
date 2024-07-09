@@ -93,10 +93,18 @@
     - **Anchoring - Used transformations to make it bend the right way**
     - **Leg was too heavy - Made it lighter**
     - **Learned about spatial contact force to make it act like a real leg wihtout solids phasing through each other**
-![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/d71e78a8-0d37-4c04-96a3-bcf8ac055521)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/5a880245-59a1-482c-85f2-9ecc78c6449e)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/9f2cce30-5e40-4e86-81a5-4309d77a4389)
 <video src="videos/legsitting.mp4" width="320" height="240" controls></video>
 <video src="videos/legstanding.mp4" width="320" height="240" controls></video>
+- **Stage 3: Adding the actuator**
+  - **Added 2 more linkages to form the exoskeleton, with a rotary joint instead of an elastic sliding joint to create a 4 linked “circular” connection**
+  - **Issued faced(and resolved)**
+    - **Orientation of linkages to make every joint move in the right direction - fixed with precise calculations and transformations to position everything correct relative to one another so the connected system works**
+    - **Positioning issues leading to errors in running - position build issue**
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/0ca63cf5-d9f6-44ef-b23f-88c3f5d28a05)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/10e90da2-cbd3-4676-970d-d5d6b3cb840e)
+<video src="videos/1legrotarystanding.mp4" width="320" height="240" controls></video>
 
 ## Conclusion
 - **Learned core robotics concepts**
