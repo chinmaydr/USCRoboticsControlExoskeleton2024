@@ -142,7 +142,7 @@
     - **Finding the optimal values of Kp, Ki, and Kd to prevent under and overdamping**
     - **Finding the right position and torque values**
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/4e993dc9-6afd-46d2-808c-5de5f0c55eaf)
-<video src="videos/PID2legstanding.mp4" width="320" height="240" controls></video>
+<video src="PID2legstanding.mp4" width="320" height="240" controls></video>
 <video src="videos/90degreestop.mp4" width="320" height="240" controls></video>
 
 ## Conclusion
@@ -175,3 +175,8 @@
 
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/b1ef7e85-d0e3-492f-b23f-f7ab85d707c0)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/564d7c0f-bb6f-40db-afdf-1e44fc07c422)
+
+## User Guide:
+- **Click "fork me on github" on the top left corner of this website**
+- **Navigate to the "code" file and download it**
+- **Open it with Matlab simulink, open the file you want to test out, and hit the run button on the top bar**
