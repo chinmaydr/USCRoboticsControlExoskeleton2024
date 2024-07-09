@@ -109,7 +109,7 @@
 - **Stage 4: Prismatic joint and Series Elastic Actuation**
   - **Added a prismatic joint with a spring constant to the upper exoskeleton linkage, so moving the lower exoskeleton linkage  with a motor could move the knee instead of applying torque on the knee joint itself**
   - **Applied torque on actuator and ankle to make robot stand**
-  - Without the sliding joint and the spring stiffness added to it, the previous version(see video above) shook a lot back and forth before it settled down, and that kind of play can be dangerous to a person using the exoskeleton, so we want as little bounce as possible**
+  - **Without the sliding joint and the spring stiffness added to it, the previous version(see video above) shook a lot back and forth before it settled down, and that kind of play can be dangerous to a person using the exoskeleton, so we want as little bounce as possible**
     - **With the SEA, there is almost no bounce making movement much smoother**
   - **Issued faced(and resolved)**
     - **Needed additional rotary joints and a small ball to slide in the joint as joints cannot directly be connected to one another**
@@ -117,6 +117,22 @@
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/46e4825f-498f-4edd-861a-87ef8a8be639)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/33b39efb-6860-4c1c-bf6d-23c631441480)
 <video src="videos/1legactuatorstanding.mp4" width="320" height="240" controls></video>
+- **Stage 5: Combining 2 legs and adding body mass**
+  - **Created a subsystem of each leg(part 4) and put them together**
+  - **Added a heavy cylinder to represent the body to see if the legs could actually stand up with a body**
+  - **Cross-referenced the ratio of the exoskeleton torque per unit mass to the knee torque per unit mass of an actual human from [this paper](https://www.sciencedirect.com/science/article/pii/S2666061X23002122#:~:text=For%20women%2C%20the%20absolute%20torque,N%E2%8B%85m)
+    - **Average human knee torque per unit mass is 1.805 Nm/kg when averaging extendor and flexor muscle types for men and women**
+    - **Actuator torque per unit body mass on the robot was 1.792 Nm/kg, making it as efficient as a real human leg**
+  - **Varied cylinder density to find the maximum mass the exoskeleton could make the knee stand up with**
+    - **With the same torque on the actuator(75 Nm), we could lift a 1050 kg/m^3 dense cylinder**
+  - **Issues faced(and resolved):**
+    - **Slight position issues due to 2 separate legs attached to the same cylinder**
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/1af87578-8721-4ca6-ab3a-dbcf7eeac77a)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/313e954a-05a6-4078-8df4-e5087d14cac7)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/ad744b5a-a1c8-4010-b080-a7619a438249)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/0fe6d432-7f22-4cde-bacc-d77d9abdf9b7)
+<video src="videos/2legstanding.mp4" width="320" height="240" controls></video>
+<video src="videos/backview2legstanding.mp4" width="320" height="240" controls></video>
 
 ## Conclusion
 - **Learned core robotics concepts**
