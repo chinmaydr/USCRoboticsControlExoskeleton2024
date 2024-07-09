@@ -102,6 +102,7 @@
   - **Issued faced(and resolved)**
     - **Orientation of linkages to make every joint move in the right direction - fixed with precise calculations and transformations to position everything correct relative to one another so the connected system works**
     - **Positioning issues leading to errors in running - position build issue**
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/4690c831-25d2-450c-8b95-315c5eac1c1b)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/0ca63cf5-d9f6-44ef-b23f-88c3f5d28a05)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/10e90da2-cbd3-4676-970d-d5d6b3cb840e)
 <video src="videos/1legrotarystanding.mp4" width="320" height="240" controls></video>
