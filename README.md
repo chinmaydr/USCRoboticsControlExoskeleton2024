@@ -86,6 +86,7 @@
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/6c919f2d-2a5b-4708-85e8-231c5deb564b)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/b33c321c-53a5-4d1a-9d52-94aeb68ad150)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/ddd142ec-3028-4488-be7d-5a351c34a5bd)
+<video src="videos/baselegmoving.mp4" width="320" height="240" controls></video>
 
 ## Results/Discussion
 ## Conclusion
