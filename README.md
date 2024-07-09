@@ -133,6 +133,17 @@
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/0fe6d432-7f22-4cde-bacc-d77d9abdf9b7)
 <video src="videos/2legstanding.mp4" width="320" height="240" controls></video>
 <video src="videos/backview2legstanding.mp4" width="320" height="240" controls></video>
+- **Stage 6: PID Control**
+  - **Added PID control to the robot to make the motion smoother and emulate human standing more**
+  - **Made the actuator stop at various positions, including squatting with the knees bent at 90 degrees**
+  - **Tested maximum weight again, but this time seeing the maximum weight possible to stand with in 20 seconds(density of 1300 kg/m^3)**
+  - **PID creates smoother movement, uses less torque and therefore energy, can stop at different points, and lifts more weight**
+  - **Issues faced(and resolved)**
+    - **Finding the optimal values of Kp, Ki, and Kd to prevent under and overdamping**
+    - **Finding the right position and torque values**
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/4e993dc9-6afd-46d2-808c-5de5f0c55eaf)
+<video src="videos/PID2legstanding.mp4" width="320" height="240" controls></video>
+<video src="videos/90degreestop.mp4" width="320" height="240" controls></video>
 
 ## Conclusion
 - **Learned core robotics concepts**
