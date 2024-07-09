@@ -79,6 +79,14 @@
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/e12c7186-e8cf-4f69-a100-bf045f226bfc)
 
 ## Models
+- **Stage 1: Initial Leg model with moving knee joint**
+  - **Modified from model provided by mentors**
+  - **No major issues, just learning how to use simulink**
+  - **Leg continuously rapidly shakes back and forth due to the lack of a damping coefficient**
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/6c919f2d-2a5b-4708-85e8-231c5deb564b)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/b33c321c-53a5-4d1a-9d52-94aeb68ad150)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/ddd142ec-3028-4488-be7d-5a351c34a5bd)
+
 ## Results/Discussion
 ## Conclusion
 - **Learned core robotics concepts**
