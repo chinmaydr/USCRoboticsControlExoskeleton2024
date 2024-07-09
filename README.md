@@ -106,6 +106,17 @@
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/0ca63cf5-d9f6-44ef-b23f-88c3f5d28a05)
 ![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/10e90da2-cbd3-4676-970d-d5d6b3cb840e)
 <video src="videos/1legrotarystanding.mp4" width="320" height="240" controls></video>
+- **Stage 4: Prismatic joint and Series Elastic Actuation**
+  - **Added a prismatic joint with a spring constant to the upper exoskeleton linkage, so moving the lower exoskeleton linkage  with a motor could move the knee instead of applying torque on the knee joint itself**
+  - **Applied torque on actuator and ankle to make robot stand**
+  - Without the sliding joint and the spring stiffness added to it, the previous version(see video above) shook a lot back and forth before it settled down, and that kind of play can be dangerous to a person using the exoskeleton, so we want as little bounce as possible**
+    - **With the SEA, there is almost no bounce making movement much smoother**
+  - **Issued faced(and resolved)**
+    - **Needed additional rotary joints and a small ball to slide in the joint as joints cannot directly be connected to one another**
+    - **Needed to play around with torques on the joints, damping coefficients, and spring stiffness in order to create a smoother system**
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/46e4825f-498f-4edd-861a-87ef8a8be639)
+![image](https://github.com/chinmaydr/USCRoboticsControlExoskeleton2024/assets/68085673/33b39efb-6860-4c1c-bf6d-23c631441480)
+<video src="videos/1legactuatorstanding.mp4" width="320" height="240" controls></video>
 
 ## Conclusion
 - **Learned core robotics concepts**
