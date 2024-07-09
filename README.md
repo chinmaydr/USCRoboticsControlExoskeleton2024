@@ -1,4 +1,5 @@
-# Using Series Elastic Actuators for Knee Exoskeletons - Chinmay Ramamurthy, Ethan Le, Ian Chen
+# Using Series Elastic Actuators for Knee Exoskeletons 
+### Chinmay Ramamurthy, Ethan Le, Ian Chen
 ## Motivation
 - **To provide aid to those without fully functioning knees to perform basic tasks**
   - **Elderly or disabled with non-funtioning or partially functioning knees**
